@@ -22,7 +22,7 @@ nav{
   top:0;
 }
 
-.pimg1, .pimg2, .pimg3{
+.pimg1, .pimg2, .pimg3,.coverImage{
 	position: relative;
 	background-position: center;
 	background-size: cover;
@@ -45,9 +45,13 @@ nav{
 	min-height: 600px;
 }
 
+.coverImage{
+	background-image: url('../images/cover.jpg');
+	min-height: 100%;
+}
+
 .section{
 	text-align: center;
-	/*top/bottom padding*/
 	padding: 80px 80px;
 }
 
@@ -95,13 +99,6 @@ nav{
 #section3{
 	overflow-x: hidden;
 }
-/*
-* {
-  background: #000 !important;
-  color: #0f0 !important;
-  outline: solid #f00 1px !important;
-}
-*/
 @media(min-width: 640px){
 
 	.pimg1, .pimg2, .pimg3{
@@ -111,16 +108,9 @@ nav{
 		top: 50%;
 		margin-top: -9px;
 	}
-	#formList{
-		padding: 0;
-	}
-	.formInput{
 
-		width: 130%;
-	}
-	.formTextArea{
-		
-		width: 130%;
+	.coverImage{
+		min-height: 100%;
 	}
 
 }
