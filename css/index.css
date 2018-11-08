@@ -91,20 +91,10 @@ nav{
 	display: block;
 
 }
-#emailLabel{
-	padding-right: 2px;
-}
-#formList{
-	padding-right: 15px;
-}
-.formTextArea{
-	height: 200px;
-	width: 300px;
-}
-.errorMessage{
-	color: red;
-}
 
+h1{
+	font-size: 30px;
+}
 #section3{
 	overflow-x: hidden;
 }
