@@ -13,6 +13,10 @@ function initPage(){
 			pageData
 		});
 		builder.createPage();
+		let nav = new Navbar({
+			pageData
+		});
+		nav.build();
 	}
 	catch(e){
 		console.warn(e);
