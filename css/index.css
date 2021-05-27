@@ -22,12 +22,16 @@ nav{
   top:0;
 }
 
-.pimg1, .pimg2, .pimg3,.coverImage,.bottomImage{
+.pimg, .pimg1, .pimg2, .pimg3,.coverImage,.bottomImage{
 	position: relative;
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: scroll;
+}
+
+.pimg{
+	min-height: 600px;
 }
 
 .pimg1{
@@ -100,7 +104,7 @@ h1{
 }
 @media(min-width: 640px){
 
-	.pimg1, .pimg2, .pimg3,.bottomImage,.coverImage{
+	.pimg, .pimg1, .pimg2, .pimg3,.bottomImage,.coverImage{
 		background-attachment: fixed;
 	}
 	.ptext{
