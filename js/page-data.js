@@ -43,6 +43,7 @@ let pageData = [
         href:'https://ctoms.ca/',
         gitLinks:[]
     },
+    /*
     {
         id:'whiskco',
         image:'images/whiskco.PNG',
@@ -52,6 +53,8 @@ let pageData = [
         href:'https://whiskco.ca/',
         gitLinks:[]
     },
+    */
+    /*
     {
         id:'canadiansi',
         image:'images/canadiansi.PNG',
@@ -61,6 +64,7 @@ let pageData = [
         builtWith:'HTML, CSS, JavaScript, ChartJS, NodeJS, cheeriojs, NorthPass, and Shopify',
         gitLinks:[]
     },
+    */
     {
         id:'foodnearyou',
         image:'images/foodNearYou.PNG',
