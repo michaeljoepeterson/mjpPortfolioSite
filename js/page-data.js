@@ -1,7 +1,7 @@
 let pageData = [
     {
         id:'shakspop',
-        image:'images/shakspop.PNG',
+        image:'images/shakspop.png',
         title:'Shaks Pop Shop',
         description:'This is a Shopify headless eCommerce store. The front-end is built with React and the app back-end is handled by Shopify. The store is completely custom made and is connected to the owners Shopify store. This allows for much easier development through React while still maintaining the advanced eCommerce toolkit provided by Shopify. The store is also connected to the Facebook conversion API. This allows the owner to setup better more targeted ad campaigns. This is one of the benefits of using a headless store as opposed to a standard Shopify store. It allows for easier and more robust customizations. The app itself is hosted on a simple AWS S3 bucket setup to act as a single page website.',
         href:'https://shakspopshop.ca/',
